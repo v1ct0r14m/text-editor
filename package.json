@@ -1,11 +1,10 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
-    "start": "",
+    "start": "node server.js",
     "server": "",
     "build": "",
     "install": "",
@@ -15,11 +14,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v1ct0r14m/text-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/v1ct0r14m/text-editor/issues"
+  },
+  "homepage": "https://github.com/v1ct0r14m/text-editor#readme",
+  "description": ""
 }

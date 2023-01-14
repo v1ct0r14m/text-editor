@@ -74,7 +74,7 @@ For this project, you will not be starting from scratch. Just like the module pr
 
 To build on the skills learned in **Lesson 2**, you will work with [webpack](https://webpack.js.org/), a module bundler for JavaScript that simplifies front-end web development to bundle JavaScript and the webpack's [HTMLWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/) to generate an HTML page.
 
-You will also use IndexedDB and [idb](https://www.npmjs.com/package/idb), a small wrapper that makes it easier to implement IndexedDB CRUD methods to add the ability to store structured data to the browser. If you find yourself stuck, review **Lesson 3**, where IndexedDB CRUD methods are covered.
+You will also use IndexedDB and [idb](https://www.npmjs.com/package/idb), a small wrapper that makes it easier to implement IndexedDB CRUD methods to add the ability to store structured data to the browser. If you find yourself stuck, revcoiew **Lesson 3**, where IndexedDB CRUD methods are covered.
 
 To add offline function, you will use [Workbox](https://developers.google.com/web/tools/workbox), which is a set of libraries that can generate a production-ready service worker for your Progressive Web App. Service workers were covered in **Lesson 4**.
 

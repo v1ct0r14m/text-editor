@@ -13,13 +13,26 @@ module.exports = () => {
       main: './src/js/index.js',
       install: './src/js/install.js'
     },
+    //bundle output
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
+    // adding plugins
     plugins: [
-      
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'jate'
+      }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: './src-sw.js'
+      }),
+      new WebpackPwaManifest({
+        
+      })
     ],
+
 
     module: {
       rules: [
